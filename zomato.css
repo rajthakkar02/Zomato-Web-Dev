@@ -129,6 +129,7 @@ body{
   transform: skewY(5deg);
   display: inline-block;
   margin: 10px;
+  border-radius: 7px;
 }
 .cardtext{
   width: 333px;
@@ -138,17 +139,21 @@ body{
   position: absolute;
   top: 105px;
   right: 785px;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
+
 
 }
 #card2{
   position: absolute;
   top: 96px;
   right: 423px;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
 }
 #card3{
   position: absolute;
   top: 150px;
   right: 53px;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
 
 }
 .menu{
