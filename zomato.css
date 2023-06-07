@@ -1,0 +1,305 @@
+header{
+  background-color: #F9FAFC;
+}
+body{
+    background-color: #EBF2FF;
+}
+.main{
+  margin: 0px 189px;
+  padding: 0px 15px;
+
+}
+.navbar{
+  height: 71.9px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
+}
+.logo{
+  width: 100px;
+  height: 71px;
+}
+.but{
+  background-image: linear-gradient( to right, #ff512f 0%, #dd2476 51%, #ff512f 100% );
+  border-radius: 10px;
+  width: 151px;
+  height: 50.4px;
+  margin: 10px;
+  font-size: 15px;
+  color: white;
+  font-family: Arial;
+  border-color: white;
+  transition-property: all;
+  transition-duration: 2s;
+  transition-delay: 0.5s;
+}
+
+.but:hover{
+  background-image: linear-gradient( to right, #ff512f 0%, #dd2476 100%, #ff512f 51% );
+}
+.div1{
+  position: relative;
+  width: 1110px;
+  height: 547px
+
+}
+.food{
+  width: 543px;
+  height: 394.99px;
+  position: absolute;
+  top: 32px;
+  right: 25px;
+  border-radius: 5%;
+
+}
+.hero1{
+  width: 543px;
+  height: 500px;
+  position: absolute;
+  right: 25px;
+  z-index: -1;
+}
+.hero2{
+  width: 543px;
+  height: 518px;
+  position: absolute;
+  right: 25px;
+  z-index: -2;
+}
+
+.line1{
+  font-size: 48px;
+  font-family: sans-serif;
+  position: absolute;
+  top: 130px;
+
+}
+#line2{
+  position: absolute;
+  top: 300px;
+  width: 150px;
+  height: 50.4px;
+}
+.video{
+  width: 1110px;
+  height: 236.8px;
+  margin-bottom: 85px;
+  position: relative;
+}
+.video1{
+  width: 300px;
+  height: 154px;
+  position: absolute;
+  left: 300px;
+}
+.font1{
+  font-size: 20px;
+  font-weight: lighter;
+  font-family: sans-serif;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  text-align: center;
+}
+.poster{
+  width: 300px;
+  height: 155px;
+  background-image: linear-gradient( to right, #ff512f 0%, #dd2476 51%, #ff512f 100% );
+  position: absolute;
+  top: 20px;
+  left: 320px;
+  z-index: -1;
+}
+.respect{
+  width: 1110px;
+  height: 681px;
+}
+.ex{
+  width: 1110px;
+  height: 681px;
+  transform: skewY(-5deg);
+  background-image: linear-gradient( to right, #ff512f 0%, #dd2476 51%, #ff512f 100% );
+  z-index: -1;
+  position: relative;
+
+}
+.card{
+  width: 666px;
+  height: 433px;
+  transform: skewY(5deg);
+  display: inline-block;
+  margin: 10px;
+  border-radius: 7px;
+}
+.cardtext{
+  width: 333px;
+  height: 100px;
+}
+#card1{
+  position: absolute;
+  top: 105px;
+  right: 785px;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
+
+
+}
+#card2{
+  position: absolute;
+  top: 96px;
+  right: 423px;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
+}
+#card3{
+  position: absolute;
+  top: 150px;
+  right: 53px;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
+
+}
+.menu{
+  transform: skewY(5deg);
+  text-align: center;
+  font-size: 52px;
+}
+.show{
+  position: absolute;
+  width: 900px;
+  height: 52px;
+  align-items: baseline;
+  justify-content: center;
+  top: 1533px;
+  left: 292px;
+  font-size: 32px;
+  font-family: "Merriweather", sans-serif;
+  border-style: none;
+  border-radius: 6px;
+  border: 0px;
+  color: white;
+  background-image: linear-gradient( to right, #ff512f 0%, #dd2476 51%, #ff512f 100% );
+  transition-property: all;
+  transition-duration: 2s;
+}
+.show:hover{
+  background: white;
+  color:  #dd2476;
+}
+.hotels{
+  width: 1110px;
+  height: 650px;
+  margin: 50px;
+}
+.Order{
+  width: 555px;
+  display: inline-block;
+  position: relative;
+}
+.car{
+  position: absolute;
+  font-size: 48px;
+  font-family: "Merriweather", sans-serif;
+  top: 262px;
+  left: 10px;
+}
+.imagerest{
+  display: inline-block;
+  position: relative;
+}
+.restaurant1{
+  width: 250px;
+  height: 180px;
+  position: absolute;
+  top: 146px;
+  left: -49px;
+  border-radius: 6px;
+
+}
+.restaurant2{
+  width: 300px;
+  height: 260px;
+  position: absolute;
+  top: 68px;
+  right: -509px;
+  border-radius: 6px;
+
+
+}
+.restaurant3{
+  width: 250px;
+  height: 180px;
+  position: absolute;
+  top: 338px;
+  right: -510px;
+  border-radius: 6px;
+
+}
+.restaurant4{
+  width: 300px;
+  height: 260px;
+  position: absolute;
+  top: 338px;
+  right: -250px;
+  border-radius: 6px;
+}
+.stay{
+  width: 1000px;
+  height: 148.4px;
+  margin-bottom: 68px;
+  margin-left: 300px;
+}
+.update{
+  font-size: 48px;
+  font-family: sans-serif;
+}
+.email{
+  width: 498.25px;
+  height: 70.4px;
+}
+.input{
+  width: 320px;
+  height: 34px;
+  border: 1px solid #ee89a0;
+  background-color: #fcedf0;
+  border-radius: 4px;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+.but2{
+  width: 158.4px;
+  height: 50.4px;
+  color: white;
+  background-image: linear-gradient( to right, #ff512f 0%, #dd2476 51%, #ff512f 100% );
+  border-style: none;
+  border-radius: 5%;
+}
+.second{
+  margin-bottom: 65px;
+  padding: 97px;
+  background-image: url("https://images.unsplash.com/photo-1522336572468-97b06e8ef143?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=755&q=80");
+  border-radius:17px;
+  background-repeat: no-repeat;
+  background-size: 1115px 350px;
+}
+.text3{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+
+}
+.footer{
+    background-image: linear-gradient( to right, #ff512f 0%, #dd2476 51%, #ff512f 100% );
+    display: flex;
+    justify-content: space-around;
+    border-radius: 15px;
+}
+.listitem{
+  list-style-type: none;
+  font-size: 20px;
+  font-family: sans-serif;
+  color: white;
+  margin-top: 20px;
+  margin-right: 85px;
+}
+.endlogo{
+  margin-left: 50px;
+  filter: brightness(0) invert(1);
+}
